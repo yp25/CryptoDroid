@@ -1,0 +1,4 @@
+sh -c "find . -name '*.class' | xargs rm -f "
+sh -c "find . -name '*.o.d' | xargs rm -f "
+sh -c "find . -name '*.o' | xargs rm -f "
+sh -c "find . -name '*~' | xargs rm -f "
