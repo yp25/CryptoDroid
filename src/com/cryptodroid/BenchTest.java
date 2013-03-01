@@ -1,8 +1,5 @@
 package com.cryptodroid;
 
-import java.security.InvalidAlgorithmParameterException;
-import java.security.InvalidKeyException;
-
 import javax.crypto.Cipher;
 import javax.crypto.spec.IvParameterSpec;
 import javax.crypto.spec.SecretKeySpec;
